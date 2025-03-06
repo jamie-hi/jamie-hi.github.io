@@ -8,17 +8,17 @@
   <body>
   
     <a-scene embedded arjs>
-    <!-- create a new asset with id "model" to hold our model.gltf -->
+    <!-- create a new asset with id "tree" to hold our tree.gltf -->
       <a-assets>
-        <a-asset-item id="model" src="models/model.gltf"></a-asset-item>
+        <a-asset-item id="tree" src="models/tree.gltf"></a-asset-item>
       </a-assets>
 
-      <!-- position that model and scale it, linked with model id -->
+      <!-- position that tree and scale it, linked with tree id -->
        <!-- blender can be used as a medium to -->
        <a-entity  position="0 0 0"
                   rotation="0 0 0 "
                   scale="0.10 0.10 0.10"
-                  gltf-model="#model" >
+                  gltf-model="#tree" >
         </a-entity>
       
         <!-- define a camera which will move accoring to the marker postion -->
